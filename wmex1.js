@@ -11,7 +11,7 @@
 			this.allow_reloads = false; //if true; reloads count as page views 
 			this.allow_repeats = true; //if true; visits to the same page count
 //settings for the box
-			this.box_size = '40px'; //this.box_size x this.box_size 24px;30px;20px; etc.
+			this.box_size = '40px'; //this.box_size x this.box_size 24px;36px;40px; etc.
 			this.horizontal_side = 'right'; //may be 'left';'right'
 			this.horizontal_offset = '40px'; //
 			this.vertical_side = 'top'; //may be 'top'; 'bottom'
