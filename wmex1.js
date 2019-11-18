@@ -1,10 +1,11 @@
-/* Remote Faucet Surfer Reward v 1.3  */ 
+  
+/* Remote Faucet Surfer Reward v 1.0.3  */ 
 // https://wmexp.com 
 
 	class _RemoteFaucetSurferReward{
 		constructor (){//called every time when page is loaded
 			//configuration - behavior  settings 
-			this.faucet_id = 123456; //this faucet is going to be shown 			
+			this.faucet_id = 100000; //this faucet is going to be shown 			
 			this.pages_to_visit = 5; //surfer must visit pages to get rewarded
 			this.seconds_on_page = 9; //surfer must stay seconds on page to count page as visited
 			this.allow_reloads = false; //if true; reloads count as page views 
@@ -348,4 +349,3 @@ document.addEventListener("DOMContentLoaded", function(e){
 window.addEventListener("load", function(e){ //we try to count page view when everything (banners!) loaded 
 	RemoteFaucetSurferReward.initMark();
 }); 
-
