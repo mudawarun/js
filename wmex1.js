@@ -7,11 +7,11 @@
 			//configuration - behavior  settings 
 			this.faucet_id = 125000; //this faucet is going to be shown 			
 			this.pages_to_visit = 5; //surfer must visit pages to get rewarded
-			this.seconds_on_page = 10; //surfer must stay seconds on page to count page as visited
+			this.seconds_on_page = 9; //surfer must stay seconds on page to count page as visited
 			this.allow_reloads = false; //if true; reloads count as page views 
 			this.allow_repeats = true; //if true; visits to the same page count
 //settings for the box
-			this.box_size = '40px'; //this.box_size x this.box_size 24px;36px;40px; etc.
+			this.box_size = '35px'; //this.box_size x this.box_size 24px;36px;40px; etc.
 			this.horizontal_side = 'right'; //may be 'left';'right'
 			this.horizontal_offset = '40px'; //
 			this.vertical_side = 'top'; //may be 'top'; 'bottom'
