@@ -7,7 +7,7 @@
 			//configuration - behavior  settings 
 			this.faucet_id = 125000; //this faucet is going to be shown 			
 			this.pages_to_visit = 5; //surfer must visit pages to get rewarded
-			this.seconds_on_page = 9; //surfer must stay seconds on page to count page as visited
+			this.seconds_on_page = 7; //surfer must stay seconds on page to count page as visited
 			this.allow_reloads = false; //if true; reloads count as page views 
 			this.allow_repeats = true; //if true; visits to the same page count
 //settings for the box
