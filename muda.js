@@ -143,6 +143,3 @@ function a_to_fa() {
     a_to_vf = protected_links.split(",");
     return a_to_vf;
 }
-
-protected_links ='facebook.com,twitter.com,youtube.com,instagram.com,mudawarin.blogspot.com,1.bp.blogspot.com,2.bp.blogspot.com,3.bp.blogspot.com,4.bp.blogspot.com,5.bp.blogspot.com';
-auto_safelink();
